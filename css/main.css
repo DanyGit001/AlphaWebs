@@ -1,7 +1,14 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
 
 html {
-    color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -27,9 +34,7 @@ hr {
 
 audio,
 canvas,
-iframe,
 img,
-svg,
 video {
     vertical-align: middle;
 }
@@ -44,7 +49,7 @@ textarea {
     resize: vertical;
 }
 
-.browserupgrade {
+.browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -88,6 +93,20 @@ textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
 
 .hidden {
     display: none !important;
@@ -138,9 +157,7 @@ textarea {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
+    * {
         background: transparent !important;
         color: #000 !important;
         box-shadow: none !important;
@@ -160,8 +177,9 @@ textarea {
         content: " (" attr(title) ")";
     }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
         content: "";
     }
 
@@ -182,6 +200,10 @@ textarea {
 
     img {
         max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
     }
 
     p,
