@@ -182,6 +182,36 @@ footer p {
     color:#fff;
 }
 
+/*interiores */
+
+section.informacion {
+    padding: 30 px 0;
+}
+
+/**NOSOTROS*/
+
+.accordion .accordion-navigation>a,
+.accordion .accordion-navigation>a:hover {
+    background-color: #4f5962;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 2px;
+    padding: .3rem .1rem;
+
+}
+
+.accordion .accordion-navigation.active>a{
+    background-color: #415962;
+}
+
+.accordion .accordion-navigation>.content {
+    border: 1px solid #a9a9a9;
+}
+
+
+ 
+
+
 
 
 
