@@ -61,6 +61,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h2 {
+    color:#787878;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+h2.blanco {
+    color: #fff;
+}
+
 
    header a.inicio {
     color:#fff;
@@ -108,8 +118,57 @@ section.destacada .contenido h1 {
     width:60%;
 }
 
+section.agencia {
+    background-color: #ebeeed;
+    padding: 10px;
 
+}
 
+section.agencia .borde {
+    border: 1px solid #aeb4b7;
+}
+
+section.agencia p {
+    margin-bottom: 40px;
+}
+
+section.servicios {
+    background-color: #ebeeed;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-top: 30px;
+}
+
+section.servicios small {
+    font-style: italic;
+}
+
+section.contacto {
+    background-color: #415962;
+    padding: 10px;
+    color:#fff;
+}
+
+section.contacto .borde {
+    border:1px solid #697279;
+}
+
+section.contacto .button {
+    background-color: #67727c;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+footer {
+    background-color: #2d3235;
+    padding-top: 30px;
+}
+
+footer nav a,
+footer nav a:hover {
+    color: #fff;
+}
 
 
 
