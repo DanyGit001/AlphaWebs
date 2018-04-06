@@ -74,7 +74,7 @@ h2.blanco {
 
    header a.inicio {
     color:#fff;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 }
 
 header nav a, 
@@ -122,6 +122,16 @@ section.agencia {
     background-color: #ebeeed;
     padding: 10px;
 
+}
+
+
+
+
+}
+
+section.destacada .borde {
+    border: 1px solid #aeb4b7;
+    margin-bottom: 40px;
 }
 
 section.agencia .borde {
