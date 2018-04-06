@@ -245,6 +245,11 @@ section.equipo .panel p {
 }
 
 
+section.equipo .columns nav {
+    background-color: #ededed;
+}
+
+
 /** Redes sociales **/
 
 nav ul.sociales {
@@ -276,7 +281,7 @@ nav ul.sociales a[href="twitter.com"]{
     background-position: -47px -47px;
 }
 
-nav ul.sociales a[href="linkedin.com"]{
+nav ul.sociales a[href="pinterest.com"]{
     background-position: -92px -47px;
 }
 
