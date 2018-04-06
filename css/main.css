@@ -220,9 +220,69 @@ section.informacion {
 
 
  
+/** Equipo **/
 
 
+section.equipo .panel {
+    border:none;
+    background-color: #ededed;
+    margin-bottom: .15rem;
+}
 
+section.equipo p.nombre {
+    color: #ababab;
+    font-size: 1.4rem;
+}
+
+section.equipo .panel small {
+    font-size: .8rem;
+    margin-bottom: 30px;
+    display: block;
+}
+
+section.equipo .panel p {
+    font-size: .8rem;
+}
+
+
+/** Redes sociales **/
+
+nav ul.sociales {
+    padding: 11px;
+}
+
+}
+
+nav ul.inline-list {
+    margin-left: 0;
+}
+
+nav ul.sociales>li{
+    margin-left:.9rem;
+}
+
+nav ul.sociales li a {
+    font-size: 0;
+    background-image: url(../img/sociales.svg);
+    background-repeat:no-repeat;
+    padding: 13px 17px;
+}
+
+nav ul.sociales a[href="facebook.com"]{
+    background-position: 0px -47px;
+}
+
+nav ul.sociales a[href="twitter.com"]{
+    background-position: -47px -47px;
+}
+
+nav ul.sociales a[href="linkedin.com"]{
+    background-position: -92px -47px;
+}
+
+nav ul.sociales a[href="github.com"]{
+    background-position: -141px -47px;
+}
 
 
 
