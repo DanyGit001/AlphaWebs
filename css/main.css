@@ -299,6 +299,35 @@ nav ul.sociales a[href="github.com"]{
 
 
 
+/** Contacto **/
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea{ 
+    background-color: #ededed;
+    box-shadow: none;
+    border: 0;
+}
+
+form .button{
+    background-color: #323538;
+    text-transform: uppercase;
+}
+
+form .button:hover{
+    background-color: #ededed;
+    color: #000000;
+}
+
+
+
+
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
