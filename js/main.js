@@ -1,7 +1,7 @@
 $(document).foundation({
-    orbit: {
-        animation: fade,
-        slide_number: false
-    }
-
+	orbit: {
+		animation: 'fade',
+		slide_number: false
+	}
 });
+
