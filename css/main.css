@@ -221,23 +221,20 @@ footer p {
 footer nav.sociales li a {
     font-size: 0;
     background-image: url(../img/sociales.svg);
-    background-repeat:no-repeat;
-    padding: 13px 17px;
+    background-repeat: no-repeat;
+    padding:13px 17px;
 }
 
-footer a[href="http://facebook.com"]{
+footer a[href="http://facebook.com"] {
     background-position: 0px 0px;
 }
-
-footer a[href="http://twitter.com"]{
+footer a[href="http://twitter.com"] {
     background-position: -47px 0px;
 }
-
-footer a[href="http://pinterest.com"]{
+footer a[href="http://pinterest.com"] {
     background-position: -92px 0px;
 }
-
-footer a[href="http://flickr.com"]{
+footer a[href="http://flickr.com"] {
     background-position: -141px 0px;
 }
 
