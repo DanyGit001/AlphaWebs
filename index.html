@@ -223,22 +223,118 @@
                 
 
 
-
-
-        
-
-
-
-
-
       <section class="contacto text-center">
           <div class="borde">
           <h2 class="blanco">¿Estas listo para comenzar? podemos ayudarte</h2>
           <p>Contactanos en el siguiente enlace, cuentanos de tu proyecto y nos pondremos en contacto a la brevedad</p>
-          <a href="#" class="button large round">Solicitar Informes</a>
+          <a href="#" class="button large round" data-reveal-id="contactoReveal">Solicitar Informes</a>
           </div>
         </section> 
 
+
+
+        <div id="contactoReveal" class="reveal-modal"data-reveal>
+            <div class="row">
+
+                            <h2 class="text-center">Contactanos llenando el siguiente formulario de contacto</h2>
+                     
+                            <form action="">
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <div class="row">
+                    <div class="small-3 columns">
+                            <label for="nombre" class="right inline">Nombre:</label>
+                        </div> 
+                        <div class="small-9 columns">
+                            <input type="text" id="nombre" placeholder="nombre">
+                        </div>
+                    
+                                        </div>
+                    
+                    
+                                   
+                                        <div class="row">
+                                                <div class="small-3 columns">
+                                                    <label for="correo" class="right inline">E-mail:</label>
+                                                </div> 
+                                                <div class="small-9 columns">
+                                                    <input type="email" id="correo" placeholder="Correo Electronico">
+                                                </div>
+                                        </div>
+                    
+                                        <div class="row">
+                                                <div class="small-3 columns">
+                                                    <label for="telefono" class="right inline">Telefono:</label>
+                                                </div> 
+                                                <div class="small-9 columns">
+                                                    <input type="tel" id="telefono" placeholder="Telefono">
+                                                </div>
+                                        </div>
+                    
+                    
+                                        <div class="row">
+                                                <div class="small-3 columns">
+                                                    <label for="mensaje" class="right inline">Mensaje:</label>
+                                                </div> 
+                                                <div class="small-9 columns">
+                                                   <textarea name="mensaje" placeholder="mensaje"></textarea>
+                                                </div>
+                    
+                                    </div>
+                    
+                    
+                    
+                    <div class="row">
+                        <div class="large-3 columns">
+                            <label class="right inline">¿Como desea ser contactado?</label>
+                    
+                        </div>
+                                <div class="large-9 columns">
+                                    <input type="checkbox"id="telefonocheck"><label for="telefonocheck">Telefono</label>
+                                    <input type="checkbox" id="correocheck"><label for="correocheck">Correo</label>
+                                </div>
+                            </div>
+                    
+                    
+                            <div class="row">
+                                <div class="small-9 small-offset-3 columns">
+                                    <a href="#"data-reveal-id="mensajeGracias">
+
+                                
+                                    <button type="submit" class="button">Enviar</button>
+                                </a>
+                                </div>
+                    
+                            </div>
+
+                            <div id="mensajeGracias" class="reveal-modal" data-reveal>
+                                Su mensaje se envio correctamente muchas gracias.
+                                <a class="close-reveal-modal">&#215;</a>
+
+                            </div>
+
+                    
+                        </div>
+                    
+                        <div class="large-4 columns">
+                                Liorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nostrum aut fuga
+                                facilis saepe deleniti modi illum fugit deserunt asperiores dolores eveniet nobis, guo
+                                magnam ab ut molestias enim optio.
+        
+                        </div>
+                    
+                    
+                        </div>
+
+                        </form>
+                        
+                        </div>
+
+
+                        <a class="close-reveal-modal">&#215;</a>
+
+
+                    </div>
 
 
 <footer>
@@ -251,7 +347,7 @@
           <li><a href="#">Contacto</a></li>
       </nav>
 
-      <nav class="large-4 large-offset-2 columns inline-list">
+      <nav class="large-3 large-offset-3 columns inline-list sociales right">
             <li><a href="#">Facebook</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">pinterest</a></li>
