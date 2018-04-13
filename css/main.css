@@ -128,6 +128,15 @@ section.destacada .contenido h1 {
 
 }
 
+section.destacada .button {
+    position: relative;
+    margin-top: 30px;
+    background-color: #67727c;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 50px;
+}
+
 section.agencia {
     background-color: #ebeeed;
     padding: 10px;
