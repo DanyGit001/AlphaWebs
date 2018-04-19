@@ -94,7 +94,18 @@ header nav a:hover {
     background-color: transparent;
     height:4.2rem;
     line-height: 4.2rem;
+    transition: all .3s ease;
+
 }
+
+.top-bar.active {
+    background-color: #4f5962;
+    transition: all .3s ease;
+
+}
+
+
+
 
 section.destacada {
     position:relative;
