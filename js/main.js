@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 		if(scroll>=300){
       nav.addClass(`active`);
-		}else{
+		} else {
 			nav.removeClass(`active`);
 
 		}
@@ -25,7 +25,7 @@ $(document).ready(function() {
 $(`body#index #navegacion a:contains("Inicio")`).parent().addClass(`activo`);
 $(`body#nosotros #navegacion a:contains("Nosotros")`).parent().addClass(`activo`);
 $(`body#servicios #navegacion a:contains("Servicios")`).parent().addClass(`activo`);
-$(`body#equipo #navegacion a:contains("Equipo de trabajo")`).parent().addClass(`activo`);
+$(`body#equipo #navegacion a:contains("Equipo de Trabajo")`).parent().addClass(`activo`);
 $(`body#contacto #navegacion a:contains("Contacto")`).parent().addClass(`activo`);
 
 
