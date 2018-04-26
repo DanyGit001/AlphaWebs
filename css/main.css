@@ -380,7 +380,9 @@ form .button:hover{
     color: #000000;
 }
 
-
+form div.check {
+    padding-top: 10px!important;
+}
 
 
 
@@ -390,16 +392,31 @@ form .button:hover{
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+   
+
+   @media only screen and (max-width: 40em) {
 
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
 
+
+
+
+@media only screen and (min-width: 40.063em) {
+    section.destacada .contenido {
+        top:30%;
+    }
 }
+
+@media only screen and (min-width: 64.063em) {
+    section.destacada .contenido {
+        top:40%;
+    }
+}
+
+@media only screen and (min-width: 90.063em) {}
+
+@media only screen and (min-width: 120.063em) {}
 
 /* ==========================================================================
    Helper classes
