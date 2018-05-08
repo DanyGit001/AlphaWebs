@@ -434,8 +434,23 @@ li.activo,
     .top-bar-section li.activo:not(.has-form) a:not(.button):hover {
     border:none;
     background-color: #353E45!important;
-
+    }
+    section.destacada .contenido {
+        top:20%;
 }
+section.destacada .contenido h1 {
+    font-size: 1.4rem;
+    width:80%;
+}
+
+#nosotros .informacion img {
+    margin-top: 20px;
+}
+.informacion p {
+    margin-left:5px;
+    margin-right:5px;
+}
+
 }
 
 
