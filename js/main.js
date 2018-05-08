@@ -22,11 +22,11 @@ $(document).ready(function() {
 		}
 	});
 
-$(`body#index #navegacion a:contains("Inicio")`).parent().addClass(`activo`);
-$(`body#nosotros #navegacion a:contains("Nosotros")`).parent().addClass(`activo`);
-$(`body#servicios #navegacion a:contains("Servicios")`).parent().addClass(`activo`);
-$(`body#equipo #navegacion a:contains("Equipo de Trabajo")`).parent().addClass(`activo`);
-$(`body#contacto #navegacion a:contains("Contacto")`).parent().addClass(`activo`);
+$(`body#index nav a:contains("Inicio")`).parent().addClass(`activo`);
+$(`body#nosotros nav a:contains("Nosotros")`).parent().addClass(`activo`);
+$(`body#servicios nav a:contains("Servicios")`).parent().addClass(`activo`);
+$(`body#equipo nav a:contains("Equipo de Trabajo")`).parent().addClass(`activo`);
+$(`body#contacto nav a:contains("Contacto")`).parent().addClass(`activo`);
 
 
 

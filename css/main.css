@@ -91,7 +91,7 @@ header nav a:hover {
 }
 
 
-.inline-list > li.activo {
+ li.activo {
     border-bottom:3px solid #fff;
 }
 
@@ -113,6 +113,7 @@ header nav a:hover {
 .f-topbar-fixed {
 padding-top: 0!important;
 }
+
 .top-bar-section ul li,
     .top-bar-section ul li:not(.has-form) a:not(.button),
     .top-bar-section ul li:not(.has-form) a:not(.button):hover {
@@ -426,6 +427,14 @@ form div.check {
 }
 [class*="block-grid-"] {
     margin: 0;
+}
+
+li.activo, 
+    .top-bar-section li.activo:not(.has-form) a:not(.button),
+    .top-bar-section li.activo:not(.has-form) a:not(.button):hover {
+    border:none;
+    background-color: #353E45!important;
+
 }
 }
 
