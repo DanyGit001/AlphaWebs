@@ -61,28 +61,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-   h2 {
+h2 {
     color:#787878;
     font-size: 2rem;
     margin: 30px 0;
 }
-
 h2.blanco {
-    color: #fff;
+    color:#fff;
 }
 
-
-   header a.inicio {
+header a.inicio {
     color:#fff;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
 }
 
 header nav a, 
@@ -90,46 +80,34 @@ header nav a:hover {
     color:#fff;
 }
 
-
- li.activo {
+li.activo {
     border-bottom:3px solid #fff;
 }
-
 
 .top-bar {
     background-color: transparent;
     height:4.2rem;
     line-height: 4.2rem;
     transition: all .3s ease;
-
 }
 
 .top-bar.active {
     background-color: #4f5962;
     transition: all .3s ease;
-
 }
 
-.f-topbar-fixed {
-padding-top: 0!important;
-}
 
 .top-bar-section ul li,
-    .top-bar-section ul li:not(.has-form) a:not(.button),
-    .top-bar-section ul li:not(.has-form) a:not(.button):hover {
-      background-color: transparent;
-
-    }
-
-
-
-
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: transparent;
+}
 section.destacada {
     position:relative;
 }
 div.pattern {
     position:absolute;
-    top:0; left:0;
+    top: 0; left:0;
     width:100%;
     height:100%;
     background-image: url(../img/pattern.png);
@@ -152,12 +130,10 @@ section.destacada .contenido h1 {
     text-transform: uppercase;
     margin:0 auto;
     width:60%;
-    
-
 }
 
 section.destacada .button {
-    position: relative;
+    position:relative;
     margin-top: 30px;
     background-color: #67727c;
     border: 2px solid #fff;
@@ -165,20 +141,10 @@ section.destacada .button {
     padding: 15px 50px;
 }
 
+
 section.agencia {
     background-color: #ebeeed;
-    padding: 10px;
-
-}
-
-
-
-
-
-
-section.destacada .borde {
-    border: 1px solid #aeb4b7;
-    margin-bottom: 40px;
+    padding:10px;
 }
 
 section.agencia .borde {
@@ -194,18 +160,17 @@ section.servicios {
     border-top: 1px solid #c2c2c2;
     border-bottom: 1px solid #c2c2c2;
     padding-top: 30px;
+    position:relative;
 }
-
 section.servicios small {
     font-style: italic;
 }
 
 section.contacto {
-    background-color: #415962;
-    padding: 10px;
+    background-color: #4f5962;
+    padding:10px;
     color:#fff;
 }
-
 section.contacto .borde {
     border:1px solid #697279;
 }
@@ -213,38 +178,34 @@ section.contacto .borde {
 section.contacto .button {
     background-color: #67727c;
     border: 2px solid #fff;
-    color: #fff;
-
+    color:#fff;
+    padding:15px 50px;
 }
 
 .reveal-modal-bg {
-position:fixed;
+    position:fixed;
 }
-
-
 
 footer {
     background-color: #2d3235;
     padding-top: 30px;
 }
-
-footer nav a,
+footer nav a, 
 footer nav a:hover {
-    color: #fff;
+    color:#fff;
 }
 
 footer hr {
-    display: block;
-    height: 1px;
-    border: 0;
+    display:block;
+    height:1px;
+    border:0;
     border-top: 1px solid #595d60;
     margin: 1rem 0;
-    padding: 0;
+    padding:0;
 }
 footer p {
     color:#fff;
 }
-
 
 footer nav.sociales li a {
     font-size: 0;
@@ -266,39 +227,32 @@ footer a[href="http://flickr.com"] {
     background-position: -141px 0px;
 }
 
-
-
-
-/*interiores */
+/* INTERIORES */
 
 section.informacion {
-    padding: 30px 0;
+    padding:30px 0;
 }
 
-/**NOSOTROS*/
+/** NOSOTROS **/
+.accordion .accordion-navigation > a,
+.accordion .accordion-navigation > a:hover {
+        background-color: #4f5962;
+        color:#fff;
+        font-size: 1.4rem;
+        margin-bottom: 2px;
+        padding: .3rem 1rem;
+}
 
-.accordion .accordion-navigation>a,
-.accordion .accordion-navigation>a:hover {
+.accordion .accordion-navigation.active > a {
     background-color: #4f5962;
-    color: #fff;
-    font-size: 1.4rem;
-    margin-bottom: 2px;
-    padding: .3rem .1rem;
-
 }
 
-.accordion .accordion-navigation.active>a{
-    background-color: #415962;
-}
-
-.accordion .accordion-navigation>.content {
+.accordion .accordion-navigation > .content {
     border: 1px solid #a9a9a9;
 }
 
 
- 
 /** Equipo **/
-
 
 section.equipo .panel {
     border:none;
@@ -310,85 +264,74 @@ section.equipo p.nombre {
     color: #ababab;
     font-size: 1.4rem;
 }
-
 section.equipo .panel small {
     font-size: .8rem;
     margin-bottom: 30px;
-    display: block;
+    display:block;
 }
-
 section.equipo .panel p {
     font-size: .8rem;
 }
-
 
 section.equipo .columns nav {
     background-color: #ededed;
 }
 
 
-/** Redes sociales **/
+
+/** REDES SOCIALES EQUIPO**/
 
 nav ul.sociales {
-    padding: 11px;
+    padding:11px;
 }
-
-
-
 nav ul.inline-list {
     margin-left: 0;
 }
 
-nav ul.sociales>li{
-    margin-left:.9rem;
+nav ul.sociales > li {
+    margin-left: .9rem;
 }
 
 nav ul.sociales li a {
     font-size: 0;
     background-image: url(../img/sociales.svg);
-    background-repeat:no-repeat;
-    padding: 13px 17px;
+    background-repeat: no-repeat;
+    padding:13px 17px;
 }
 
-nav ul.sociales a[href="facebook.com"]{
-    background-position: 0px -47px;
+nav ul.sociales a[href="facebook.com"] {
+        background-position: 0px -47px;
+}
+ 
+ nav ul.sociales a[href="twitter.com"] {
+        background-position: -47px -47px;
+}
+nav ul.sociales a[href="pinterest.com"] {
+        background-position: -92px -47px;
+}
+nav ul.sociales a[href="github.com"] {
+        background-position: -141px -47px;
 }
 
-nav ul.sociales a[href="twitter.com"]{
-    background-position: -47px -47px;
-}
-
-nav ul.sociales a[href="linkedin.com"]{
-    background-position: -92px -47px;
-}
-
-nav ul.sociales a[href="github.com"]{
-    background-position: -141px -47px;
-}
-
-
-
-/** Contacto **/
-
+/**CONTACTO**/
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-
-textarea{ 
+textarea {
     background-color: #ededed;
-    box-shadow: none;
-    border: 0;
+    box-shadow:none;
+    border:0;
 }
 
-form .button{
+form .button {
     background-color: #323538;
     text-transform: uppercase;
 }
 
-form .button:hover{
+form .button:hover {
     background-color: #ededed;
-    color: #000000;
+    color:#000000;
 }
 
 form div.check {
@@ -396,88 +339,85 @@ form div.check {
 }
 
 
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-   
+/* max-width 640px, mobile-only styles*/
+@media only screen and (max-width: 40em) { 
+            .top-bar {
+                background-color: #4f5962;
+                height:2.8rem;
+                line-height: 2.8rem;
+                transition: none;
+            }
 
-   @media only screen and (max-width: 40em) {
-    .top-bar {
-        background-color: #4f5962;
-        height:2.8rem;
-        line-height: 2.8rem;
-        transition: none;
-    
-    }
-    
-    .top-bar.active {
-        background-color: #4f5962;
-        transition: none;
-    
-    }
-    .top-bar.expanded .title-area,
-    .top-bar-section ul li,
-    .top-bar-section ul li:not(.has-form) a:not(.button),
-    .top-bar-section ul li:not(.has-form) a:not(.button):hover {
-      background-color: #4f5962;
-}
-[class*="block-grid-"] {
-    margin: 0;
-}
+            .top-bar.active {
+                background-color: #4f5962;
+                transition: none;
+            }
+            .top-bar.expanded .title-area,
+            .top-bar-section ul li,
+            .top-bar-section li:not(.has-form) a:not(.button),
+            .top-bar-section li:not(.has-form) a:not(.button):hover {
+                background-color: #4f5962;
+            }
+            [class*="block-grid-"] {
+                 margin: 0;
+            }  
 
-li.activo, 
-    .top-bar-section li.activo:not(.has-form) a:not(.button),
-    .top-bar-section li.activo:not(.has-form) a:not(.button):hover {
-    border:none;
-    background-color: #353E45!important;
-    }
+            li.activo,
+            .top-bar-section li.activo:not(.has-form) a:not(.button),
+            .top-bar-section li.activo:not(.has-form) a:not(.button):hover  {
+                border:none;
+                background-color: #353E45!important;
+            }
+            section.destacada .contenido {
+                top: 20px;
+            }
+            section.destacada .contenido h1 {
+                font-size: 1.4rem;
+                width:80%;
+            }
+
+            #nosotros .informacion img {
+                    margin-top: 20px;
+            }
+            .informacion p {
+                margin-left:5px;
+                margin-right:5px;
+            }
+} 
+
+ /* Medium screens */
+ /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
     section.destacada .contenido {
-        top:20%;
-}
-section.destacada .contenido h1 {
-    font-size: 1.4rem;
-    width:80%;
-}
-
-#nosotros .informacion img {
-    margin-top: 20px;
-}
-.informacion p {
-    margin-left:5px;
-    margin-right:5px;
-}
-
-}
-
-
-
-
-
-@media only screen and (min-width: 40.063em) {
-    section.destacada .contenido {
-        top:30%;
+        top: 30%;
     }
     .f-topbar-fixed {
-padding-top: 0!important;
-}
-[class*="block-grid-"] {
-    margin: 0;
-}
-}
+        padding-top: 0!important;
+    }
+    [class*="block-grid-"] {
+         margin: 0;
+    }
+} 
 
-@media only screen and (min-width: 64.063em) {
+ /* Large screens */
+  /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) { 
     section.destacada .contenido {
-        top:40%;
+        top: 40%;
     }
 }
 
-@media only screen and (min-width: 90.063em) {}
+ /* XLarge screens */
+ /* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) { } 
 
-@media only screen and (min-width: 120.063em) {}
+ /* XXLarge screens */
+  /* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) { }
 
 /* ==========================================================================
    Helper classes
