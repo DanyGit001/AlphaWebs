@@ -72,8 +72,30 @@ h2.blanco {
 
 header a.inicio {
     color:#fff;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
 }
+
+header a.contacto {
+    color:#fff;
+    font-size: 2.6rem;
+}
+
+header a.equipo {
+    color:#fff;
+    font-size: 2.6rem;
+}
+
+header a.servicios {
+    color:#fff;
+    font-size: 2.6rem;
+}
+
+header a.nosotros {
+    color:#fff;
+    font-size: 2.6rem;
+}
+
+
 
 header nav a, 
 header nav a:hover {
@@ -89,6 +111,8 @@ li.activo {
     height:4.2rem;
     line-height: 4.2rem;
     transition: all .3s ease;
+
+    
 }
 
 .top-bar.active {
