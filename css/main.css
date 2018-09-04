@@ -106,11 +106,21 @@ li.activo {
     border-bottom:3px solid #fff;
 }
 
+
+
+
+
+
+
 .top-bar {
     background-color: transparent;
     height:4.2rem;
     line-height: 4.2rem;
     transition: all .3s ease;
+    padding-top: 25px;
+    
+
+
 
     
 }
