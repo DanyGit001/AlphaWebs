@@ -116,7 +116,7 @@ section.top-bar right {
 
 .top-bar {
     background-color: transparent;
-    height:6.2rem;
+    height: 4.2rem;
     line-height: 4.2rem;
     transition: all .3s ease;
     padding-top: 25px;
@@ -133,6 +133,10 @@ section.top-bar right {
 .top-bar-section li:not(.has-form) a:not(.button),
 .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: transparent;
+    text-transform: uppercase;
+    line-height: 58px;
+    
+
 }
 section.destacada {
     position:relative;
