@@ -108,21 +108,19 @@ li.activo {
 
 
 
+section.top-bar right {
 
-
+    font-size: 125%;
+}
 
 
 .top-bar {
     background-color: transparent;
-    height:4.2rem;
+    height:6.2rem;
     line-height: 4.2rem;
     transition: all .3s ease;
     padding-top: 25px;
-    
-
-
-
-    
+      
 }
 
 .top-bar.active {
@@ -155,6 +153,16 @@ section.destacada .contenido {
     position:absolute;
     z-index: 20;
 }
+
+section.aplicaciones p {
+    font-size: 125%;
+
+}
+
+
+
+
+
 
 section.destacada .contenido h1 {
     padding:30px 50px;
