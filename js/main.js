@@ -4,7 +4,7 @@ $(document).foundation({
 		slide_number: false,
 		circular:false,
 		timer:false,
-		bullets:false
+		bullets:true
 	}
 });
 
