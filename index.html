@@ -18,6 +18,22 @@
     
     <body>
 
+
+
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1726111167438575"
+  theme_color="#67b868"
+  logged_in_greeting="Hola! Soy CEO de Alpha Webs ¿Como puedo ayudarte?"
+  logged_out_greeting="Hola! Soy CEO de Alpha Webs ¿Como puedo ayudarte?">
+</div>
+
+
+
+
+
             <header class="fixed">
                     <nav class="top-bar" data-topbar>
                         <ul class="title-area">
@@ -287,7 +303,7 @@
 
                             <h2 class="text-center">Contactanos llenando el siguiente formulario de contacto</h2>
                      
-                            <form action="https://formspree.io/StartupAlphaWebs@gmail.com"  method = " POST ">
+                            <form method="POST" action="https://formspree.io/StartupAlphaWebs@gmail.com">
                                 <div class="row">
                                     <div class="large-12 columns">
                                         <div class="row">
@@ -295,7 +311,7 @@
                             <label for="nombre" class="right inline">Nombre:</label>
                         </div> 
                         <div class="small-9 columns">
-                            <input type="text" id="nombre" placeholder="nombre">
+                            <input type="text" name="name" id="nombre" placeholder="nombre">
                         </div>
                     
                                         </div>
@@ -307,7 +323,7 @@
                                                     <label for="correo" class="right inline">E-mail:</label>
                                                 </div> 
                                                 <div class="small-9 columns">
-                                                    <input type="email" id="correo" placeholder="Correo Electronico">
+                                                    <input type="email" name="email" id="correo" placeholder="Correo Electronico">
                                                 </div>
                                         </div>
                     
@@ -316,7 +332,7 @@
                                                     <label for="telefono" class="right inline">Telefono:</label>
                                                 </div> 
                                                 <div class="small-9 columns">
-                                                    <input type="tel" id="telefono" placeholder="Telefono">
+                                                    <input type="tel" name="number" id="telefono" placeholder="Telefono">
                                                 </div>
                                         </div>
                     
@@ -347,11 +363,11 @@
                     
                             <div class="row">
                                 <div class="small-9 small-offset-3 columns">
-                                    <a href="#"data-reveal-id="mensajeGracias">
+                                    
 
                                 
                                     <button type="submit" class="button">Enviar</button>
-                                </a>
+                                
                                 </div>
                     
                             </div>

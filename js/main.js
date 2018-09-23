@@ -22,6 +22,10 @@ $(document).ready(function() {
 	});
 
 
+
+	
+
+
 	$('body#index nav a:contains("Inicio")').parent().addClass('activo');
 	$('body#nosotros nav a:contains("Nosotros")').parent().addClass('activo');
 	$('body#servicios nav a:contains("Servicios")').parent().addClass('activo');

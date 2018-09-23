@@ -62,7 +62,7 @@
 
         <h2 class="text-center">Contactanos llenando el siguiente formulario de contacto</h2>
  
-        <form action="https://formspree.io/StartupAlphaWebs@gmail.com" method="POST" data-abide>
+        <form method="POST" action="https://formspree.io/StartupAlphaWebs@gmail.com" data-abide>
             <div class="row">
                 <div class="medium-8 columns">
                     <div class="row">
@@ -70,7 +70,7 @@
         <label for="nombre" class="right inline">Nombre y Apellido:</label>
     </div> 
     <div class="small-9 columns">
-        <input type="text" id="nombre" placeholder="nombre" required pattern="[a-zA-Z]+ ">
+        <input type="text" name="name" id="nombre" placeholder="nombre" required pattern="[a-zA-Z]+ ">
         <small class="error">Coloca tu nombre</small>
     </div>
 
@@ -83,7 +83,7 @@
                                 <label for="correo" class="right inline">E-mail:</label>
                             </div> 
                             <div class="small-9 columns">
-                                <input type="email" id="correo" placeholder="Correo Electronico" required>
+                                <input type="email" name="email" id="correo" placeholder="Correo Electronico" required>
                                 <small class="error">Coloca tu correo</small>
                             </div>
                     </div>
@@ -93,7 +93,7 @@
                                 <label for="telefono" class="right inline">Telefono:</label>
                             </div> 
                             <div class="small-9 columns">
-                                <input type="tel" id="telefono" placeholder="Telefono" required pattern="integer">
+                                <input type="tel" name="number" id="telefono" placeholder="Telefono" required pattern="integer">
                                 <small class="error">Coloca un numero de telefono</small>
                             </div>
                     </div>
