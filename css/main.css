@@ -72,7 +72,8 @@ h2.blanco {
 
 header a.inicio {
     color:#fff;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
+    
 }
 
 header a.contacto {
@@ -153,6 +154,7 @@ li.activo {
 section.destacada {
     position:relative;
 }
+
 div.pattern {
     position:absolute;
     top: 0; left:0;
